@@ -8,6 +8,12 @@ html, body {
     width: 360px;
 }
 
+#toDoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #inputField {
     width: 300px;
     height: 46px;
@@ -25,7 +31,7 @@ html, body {
     font-size: 30px;
 }
 
-.deleteItem {
+.deleteItem-styling {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -37,7 +43,7 @@ html, body {
 }
 
 .paragraph-styling{
-    margin: 0;
+    margin: 10px;
     cursor: pointer;
     font-size: 20px;
 }
