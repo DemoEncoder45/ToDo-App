@@ -6,6 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello world</h1>    
+    <div class="task-list">
+        <div class="task-list__task">
+            <p class="task-list__task__title">task title</p>
+            <div class="task-list__task__options">
+               <input  type="checkbox" aria-label="check task" class="task-list__task__options__check-task"> 
+               <button type="button" aria-roledescription="edit task" class="button">
+                <img src="./assets/edit-icon.svg" alt="edit icon" class="button__icon">
+                 edit
+               </button>
+               <button type="button" aria-roledescription="delete task" class="button">
+                 <img src="./assets/delete-icon.svg" alt="delete-icon" class="button__icon">
+                    delete
+              </button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
